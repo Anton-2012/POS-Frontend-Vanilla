@@ -32,7 +32,7 @@ Para que la interfaz funcione con datos reales, requiere tener en ejecución la 
 
 ## Instrucciones de Ejecución
 
-1. **Asegurar el Backend:** Clonar e iniciar el proyecto `POS-Backend-SBoot` en el puerto por defecto (`http://localhost:8080`).
+1. **Asegurar el Backend:** Clonar e iniciar el proyecto `POS-Backend-SBoot` en el puerto por default (`http://localhost:8080`).
 2. **Clonar este repositorio:**
    ```bash
    git clone [https://github.com/Anton-2012/POS-Frontend-Vanilla.git](https://github.com/Anton-2012/POS-Frontend-Vanilla.git)

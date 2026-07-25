@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> gestión de Productos </title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+        
+        <body class = "bg-light">
+          
+            <nav  class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+                <div class="container-fluid">
+                    <a class = "navbar-brand fw-bold" href="#"> Cafetería </a>
+                <div class="navbar-nav">  
+                    <a class="nav-link active" href="#"> Productos</a> 
+                    <a class="nav-link" href="Empleado.html"> Colaboradores</a>
+                    <a class="nav-link" href="Ventas.html"> Historial ventas</a>
+                    <a class="nav-link" href="NuevaVenta.html"> Realizar venta</a>
+                    
+                </div> 
+                </div>
+            </nav>
+
+            <div class="container-fluid px-4">
+                <div class="row g-4">
+
+                    <div class="col-md-4 col-lg-3">
+                        <div class="card shadow-sm">
+                            <div class="card-header bg-primary text-white">
+                                <h5 class="card-tittle mb-0">Agregar Producto</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <input id="nombre" type="text" placeholder="Nombre producto"> 
+                                </div>
+                                <div class="mb-3">
+                                    <input id="precio" type="text" placeholder="precio">
+                                </div>
+                                <div class="mb-3">
+                                    <input id="stock" type="text" placeholder="stock">
+                                </div>
+                                    <button class="btn btn-succes w-100 fw-bold" id="btn-guardar">
+                                         Agregar
+                                    </button>
+
+                            </div>
+                        </div>
+                    </div>
+                
+            
+            
+
+                <div class="col-md-8 col-lg-9">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-white">
+                            <h5 class="card-tittle mb-0"> Catálogo de Productos</h5>
+                        </div>
+                            <div class="card-body p-0">
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-stripped mb-0 align-middle">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th> ID </th>
+                                                <th> Nombre</th>
+                                                <th> Precio</th>
+                                                <th> Stock</th>
+                                                <th class="text-center"> Acciones</th>
+                                                <th> </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tabla-productos">
+                                            <!---->
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                    </div>    
+                </div>
+
+                </div>
+            </div>   
+                <script src="script.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        </body>
+
+
+</html>
